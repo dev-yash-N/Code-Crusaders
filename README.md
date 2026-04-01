@@ -8,4 +8,4 @@
 
 - Prayaksh Upadhyay
 - Priyanshu Kumar
-- Yash Nagre
+- Yash Nangre

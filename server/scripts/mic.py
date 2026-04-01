@@ -3,16 +3,13 @@ from scipy.io.wavfile import write
 import numpy as np
 import threading
 
-# Settings
-sample_rate = 16000  # Whisper-friendly
+sample_rate = 16000  
 channels = 1
 output_file = "../audio/Audio.wav"
 
-# Global flags
 recording = True
 paused = False
 
-# Buffer to store recorded audio chunks
 audio_buffer = []
 
 def record():
@@ -30,11 +27,9 @@ def record():
         while recording:
             sd.sleep(100)  # keep stream alive
 
-# Thread for recording
 record_thread = threading.Thread(target=record)
 record_thread.start()
 
-# Control loop
 try:
     while recording:
         cmd = input("Enter command (p=pause/resume, s=stop): ").strip().lower()
@@ -46,10 +41,8 @@ try:
 except KeyboardInterrupt:
     recording = False
 
-# Wait for thread to finish
 record_thread.join()
 
-# Combine chunks and save
 if audio_buffer:
     audio_data = np.concatenate(audio_buffer, axis=0)
     write(output_file, sample_rate, audio_data)

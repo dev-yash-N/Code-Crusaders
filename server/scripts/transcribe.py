@@ -9,8 +9,8 @@ with open("../transcripts/[YOUR_FILE_TRANSCRIPT].txt", "w", encoding="utf-8") as
     f.write(f"Detected language: {info.language}\n\n")
 
     for segment in segments:
-        line = f"[{segment.start:.2f}s -> {segment.end:.2f}s] {segment.text}\n"
+        line = f"{segment.text}\n"
         
-        print(line.strip())   # still prints to console (optional)
-        f.write(line)         # writes to file
+        print(line.strip())
+        f.write(line)
 

@@ -1,7 +1,29 @@
-Detected language: hi
+Patient: Good morning, doctor. I’ve been having a headache and mild fever for the last three days.
 
-[0.00s -> 6.00s]  आपके पास पर्यावरन संबंदी लागु कानूनो और विन्यमो तक पहच सुनिष्चित करने,
-[6.00s -> 11.00s]  और आपके प्रचालनो पर लागु होने वाले कानूनो को पहचानने के लिए,
-[11.00s -> 14.00s]  एक कार्यान वित सिस्तम होना चाहिये.
-[14.00s -> 17.00s]  आपके आपके अरिकसन के लिए डिजायन का काम करते है,
-[17.00s -> 22.00s]  तो आपके लिए भी अरिकसन के पर्यावरन हे तु डिजायन का पालन करना आवश्षक है.
+Doctor: Good morning. Can you tell me exactly how high your temperature has been?
+
+Patient: It’s been around 100.4°F. The headache is mostly in the front of my head, and sometimes I feel dizzy.
+
+Doctor: Any other symptoms? Cough, sore throat, nausea, or vision changes?
+
+Patient: No cough or sore throat. Just some nausea in the mornings.
+
+Doctor: Alright. Do you have any chronic conditions, like diabetes or hypertension? Are you on any medications currently?
+
+Patient: I have mild hypertension, and I take amlodipine daily. No other medications.
+
+Doctor: Okay. Have you taken any medicines for your current symptoms?
+
+Patient: I took paracetamol yesterday, but it didn’t help much.
+
+Doctor: Got it. I will check your vitals and recommend some tests if needed. I suspect it might be a viral infection, but we’ll rule out other causes. I recommend a complete blood count and maybe a basic metabolic panel.
+
+Patient: Sounds good. Should I continue taking paracetamol?
+
+Doctor: Yes, you can continue for fever, but don’t exceed the recommended dosage. Drink plenty of fluids and rest. I’ll prescribe something for nausea if it persists.
+
+Patient: Alright, thank you.
+
+Doctor: I’ll also schedule a follow-up in three days to check your progress. If your symptoms worsen, especially if fever rises above 102°F or you experience severe dizziness, come back sooner.
+
+Patient: Understood. Thank you, doctor.
