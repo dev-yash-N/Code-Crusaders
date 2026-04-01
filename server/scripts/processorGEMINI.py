@@ -9,13 +9,8 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-def read_txt_as_string(file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
-        return f.read()
 
-
-def build_prescription_from_transcript(file_path, model):
-    conversation = read_txt_as_string("../transcripts/transcription.txt")
+def build_prescription_from_transcript(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             conversation = f.read().strip()
@@ -63,7 +58,6 @@ Conversation:
         raise Exception(f"Model generation failed: {e}")
 
     try:
-        
         start = raw_output.find("{")
         end = raw_output.rfind("}") + 1
         json_str = raw_output[start:end]
@@ -71,5 +65,5 @@ Conversation:
         structured_data = json.loads(json_str)
     except Exception as e:
         raise Exception(f"JSON parsing failed: {e}\nRaw output:\n{raw_output}")
-    print(structured_data)
+
     return structured_data

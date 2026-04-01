@@ -1,0 +1,24 @@
+{
+  "patient_details": {
+    "name": "Rahul Sharma",
+    "age": "35",
+    "gender": "Male"
+  },
+  "symptoms": ["fever", "persistent cough", "fatigue", "mild headache"],
+  "duration": "5 days",
+  "severity": "moderate",
+  "patient_history": "No known chronic illnesses. Occasional seasonal allergies.",
+  "diagnosis": "Upper respiratory tract infection (likely viral)",
+  "medications": [
+    "Paracetamol 500mg",
+    "Cough syrup (Dextromethorphan)",
+    "Antihistamine (Cetirizine)"
+  ],
+  "tests_recommended": [
+    "Complete Blood Count (CBC)",
+    "Chest X-ray (if symptoms worsen)"
+  ],
+  "doctor_notes": "Advise rest, hydration, and monitoring of fever. Return if symptoms persist beyond 7 days or worsen.",
+  "referral_needed": "No",
+  "follow_up": "Follow up after 5 days or earlier if condition deteriorates"
+}

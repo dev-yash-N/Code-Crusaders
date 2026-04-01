@@ -1,0 +1,39 @@
+Doctor: Hello, please come in. What seems to be the problem?
+
+Patient: Hi doctor, my name is Rahul Sharma. I’ve not been feeling well for the past few days.
+
+Doctor: Alright Rahul, can you tell me your age?
+
+Patient: I’m 35 years old.
+
+Doctor: Okay. What symptoms are you experiencing?
+
+Patient: I’ve had a fever for about 5 days now. Along with that, I have a persistent cough, feel very tired, and sometimes get a mild headache.
+
+Doctor: I see. How severe would you say your symptoms are?
+
+Patient: I’d say they’re moderate. The fever and fatigue are the most bothersome.
+
+Doctor: Do you have any past medical history? Any chronic illnesses?
+
+Patient: No, nothing major. I just have occasional seasonal allergies.
+
+Doctor: Understood. Based on your symptoms, this looks like an upper respiratory tract infection, most likely viral.
+
+Patient: Okay, is it serious?
+
+Doctor: It doesn’t seem serious right now, but we should monitor it. I’ll prescribe you Paracetamol 500mg for fever, a cough syrup with Dextromethorphan, and Cetirizine for your allergies.
+
+Patient: Alright.
+
+Doctor: I’d also recommend a Complete Blood Count test. If your symptoms worsen, especially the cough, we may need a chest X-ray.
+
+Patient: Got it.
+
+Doctor: Make sure you get plenty of rest, stay hydrated, and keep track of your fever. If your symptoms don’t improve within 7 days or if they worsen, come back immediately.
+
+Patient: Okay doctor, thank you.
+
+Doctor: No problem. Let’s schedule a follow-up in about 5 days, or earlier if needed.
+
+Patient: Sure, I will. Thanks again.
