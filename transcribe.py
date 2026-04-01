@@ -2,9 +2,8 @@ from faster_whisper import WhisperModel
 
 model = WhisperModel("small", compute_type="int8")
 
-segments, info = model.transcribe("HIN_M_AvdheshT.wav")
+segments, info = model.transcribe("HindiSample.wav")
 
-print("Information regarding the audio file - ", info)
 
 with open("transcription.txt", "w", encoding="utf-8") as f:
     f.write(f"Detected language: {info.language}\n\n")
